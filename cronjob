@@ -1,0 +1,5 @@
+#Cron Job
+crontab -e=$0 0 * * 2 * /bin/bash home/user/Desktop/bkp_web/bkpcron.sh
+cd=$home/user/Desktop/bkp_web
+vim=$cron.sh
+touch=$home/user/Desktop/bkp_web tuesdaybackup.txt
